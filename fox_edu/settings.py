@@ -149,10 +149,10 @@ STATICFILES_DIRS = [
 
 EMAIL_HOST = "smtp.163.com"
 EMAIL_PORT = "25"
-EMAIL_HOST_USER = "daqingv5@163.com"
-EMAIL_HOST_PASSWORD = "aptx4869"
+EMAIL_HOST_USER = "邮箱"
+EMAIL_HOST_PASSWORD = "密码"
 EMAIL_USE_TLS = False
-EMAIL_FROM = "daqingv5@163.com"
+EMAIL_FROM = "邮箱"
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
